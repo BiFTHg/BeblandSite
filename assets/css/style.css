@@ -28,6 +28,22 @@ a{
 	text-decoration: none;
 }
 
+/*Navigation*/
+li, a{
+	font-family: Nunito;
+	font-weight: 500;
+	font-size: 16px;
+	color: #9760b5;
+	text-decoration: none;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 45%;
+}
+
  /*header of site*/
 .text{
 	color: #757575;
@@ -63,8 +79,8 @@ border-color: gray;
 }
 
 a:hover {
-    text-decoration: none; /* Убираем подчеркивание */
-    color: #fff; /* Цвет ссылки при наведении на нее курсора мыши */  
+    text-decoration: none; 
+    color: #fff;  
     transition: 1s;
    }
 
